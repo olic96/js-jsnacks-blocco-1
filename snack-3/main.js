@@ -1,11 +1,11 @@
 // chiedo 10 volte all'utente di inserire un numero,
-let aNumber = Number(prompt("Type a number"));
+let total = 0
 
 for( let i = 1; i < 10; i++) {
-    Number(prompt("Type a number"));
+   const number = Number(prompt("Type a number"));
+   total += number;
 }
 
-let somma = aNumber + aNumber;
-console.log("somma")
+console.log(total);
 
 // stampa la somma di tutti i numeri inseriti.
