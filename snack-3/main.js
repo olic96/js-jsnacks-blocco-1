@@ -5,7 +5,7 @@ for( let i = 1; i < 10; i++) {
     Number(prompt("Type a number"));
 }
 
-let somma = 
-console.log("")
+let somma = aNumber + aNumber;
+console.log("somma")
 
 // stampa la somma di tutti i numeri inseriti.
