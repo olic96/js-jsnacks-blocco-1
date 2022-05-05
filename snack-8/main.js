@@ -1,10 +1,11 @@
 // creo un array di numeri interi
-const listNumber = [1, 2, 3, 4, 5];
-// fai la somma di tutti gli elementi solo in posizione dispari
+const listNumbers = [1, 2, 3, 4, 5];
+// prendo dalla mia lista tutti i numeri, se sono in posizione dispari, li sommo
 
-for(let i = 0; i < listNumber.length; i++){
-    if(i % 2 === 1);
-    const somma = listNumber[i];
+let total = 0;
+for(let i = 0; i < listNumbers.length; i++){
+    if (i % 2 === 1) {
+       total += listNumbers[i]; 
+    }
 }
-
-console.log(somma);
+console.log(total);
